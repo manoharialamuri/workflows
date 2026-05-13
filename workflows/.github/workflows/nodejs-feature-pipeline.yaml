@@ -1,6 +1,6 @@
 name: nodejs-featurebranch-workflow
 on: 
- workflow_call:
+ call-workflow::
   inputs:
       Project:
         description: 'Project Name'
